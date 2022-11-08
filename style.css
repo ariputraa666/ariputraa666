@@ -1,0 +1,24 @@
+#harga {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#harga td, #harga th {
+    border:1px solid cornflowerblue;
+    paddding : 10px;
+}
+
+#harga th{
+    background-color: whitesmoke;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color :cadetblue;
+
+}
+#harga tr:nth-child(odd){
+    background-color: cadetblue;
+}
+#harga tr:hover{
+    background-color:chartreuse;
+}
